@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky">#328CEC</color>
+    <color name="diamond">#16B6D3</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background_color">#ede9e3</color>
+    <color name="menu_item_background_color">#F6BE69</color>
+    <color name="btn_background_color">#b50071</color>
+    <color name="btn_push_background_color">#B50000</color>
+    <color name="btn_disable">#B4B4B4</color>
+    <color name="cost_background_color">#1ca6c9</color>
+    <color name="text_background_color">@color/black</color>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".windows.fragments.basket.Basket">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_color">
+
+        <TextView
+            android:id="@+id/basket_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/basket_label"
+            android:textColor="@color/text_background_color"
+            android:textSize="@dimen/h1"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/basket_label"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_above="@id/tl_basket_rez_sum">
+
+
+            <LinearLayout
+                android:id="@+id/ll_basket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:divider="@drawable/divider_vis"
+                android:showDividers="middle"/>
+
+        </ScrollView>
+
+        <TableLayout
+            android:id="@+id/tl_basket_rez_sum"
+            android:layout_above="@id/btn_basket_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="@string/basket_rez_sum_label"
+                    android:textStyle="bold"
+                    android:paddingEnd="20dp"/>
+
+                <TextView
+                    android:id="@+id/basket_rez_sum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="0"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="₽"
+                    android:textStyle="bold"/>
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_basket_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_background_color"
+            android:textColor="@color/text_background_color"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:textSize="@dimen/h2"
+            android:text="Оплатить"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

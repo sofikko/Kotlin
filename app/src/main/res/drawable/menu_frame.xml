@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/menu_item_background_color" /> <!-- Цвет заполнения -->
+    <stroke android:color="@android:color/transparent" android:width="2dp" /> <!-- Цвет и толщина рамки -->
+    <corners android:radius="40dp" /> <!-- Радиус скругления углов (округлые края) -->
+</shape>

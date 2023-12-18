@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".windows.fragments.kitchen.Kitchen">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_color">
+
+        <TextView
+            android:id="@+id/kitchen_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_background_color"
+            android:textSize="@dimen/h1"
+            android:text="@string/kitchen_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/kitchen_label"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="30dp">
+
+
+            <LinearLayout
+                android:id="@+id/ll_kitchen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:divider="@drawable/divider_inv"
+                android:showDividers="middle"/>
+
+        </ScrollView>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="@dimen/btn_menu_size_XY"
+            android:layout_height="@dimen/btn_menu_size_XY"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:src="@drawable/basket"
+            android:id="@+id/btn_basket"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".windows.fragments.main.Main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_background_color">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+            <LinearLayout
+                android:id="@+id/btn_bakery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="@dimen/btn_main_size_XY"
+                    android:layout_height="@dimen/btn_main_size_XY"
+                    android:src="@drawable/bakery"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="@string/bakery_main_label"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btn_tea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="@dimen/btn_main_size_XY"
+                    android:layout_height="@dimen/btn_main_size_XY"
+                    android:src="@drawable/tea"
+                    android:layout_marginTop="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="@string/tea_main_label"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/btn_basket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="@dimen/btn_main_size_XY"
+                    android:layout_height="@dimen/btn_main_size_XY"
+                    android:src="@drawable/basket"
+                    android:background="@color/main_background_color"
+                    android:layout_marginTop="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_background_color"
+                    android:textSize="@dimen/h1"
+                    android:text="@string/basket_main_label"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

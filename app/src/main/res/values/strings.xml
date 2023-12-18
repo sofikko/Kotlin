@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SOG</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bakery_main_label">Выпечка</string>
+    <string name="tea_main_label">Напитки</string>
+    <string name="basket_main_label">Корзина</string>
+    <string name="kitchen_label">Кухня</string>
+    <string name="bar_label">Напитки</string>
+    <string name="basket_label">Корзина</string>
+    <string name="basket_rez_sum_label">Итого:</string>
+</resources>

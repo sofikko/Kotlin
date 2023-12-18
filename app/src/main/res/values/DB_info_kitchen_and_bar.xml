@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="kitchen_menu">
+        <item>Тирамису</item>
+        <item>tiramisu</item>
+        <item>150,00</item>
+        <item>kitchen</item>
+
+        <item>Чизкейк с малиновым соусом</item>
+        <item>malinovyj</item>
+        <item>175,00</item>
+        <item>kitchen</item>
+
+        <item>Шоколадный фондан</item>
+        <item>chokolate_fondan</item>
+        <item>120,00</item>
+        <item>kitchen</item>
+
+        <item>Клубничный панкейк</item>
+        <item>pankeiki_s_yagodami</item>
+        <item>95,00</item>
+        <item>kitchen</item>
+
+        <item>Творожники с вишней</item>
+        <item>tvorojki_s_vishney</item>
+        <item>145,00</item>
+        <item>kitchen</item>
+
+        <item>Фруктовый салат</item>
+        <item>fruktoviy_salat</item>
+        <item>80,00</item>
+        <item>kitchen</item>
+
+        <item>Карамельный чизкейк</item>
+        <item>karamelniy_chizkeyk</item>
+        <item>165,00</item>
+        <item>kitchen</item>
+
+        <item>Шоколадный маффин</item>
+        <item>mafin_chocko</item>
+        <item>110,00</item>
+        <item>kitchen</item>
+
+        <item>Брауни с орехами</item>
+        <item>brauni_oreh</item>
+        <item>140,00</item>
+        <item>kitchen</item>
+
+        <item>Ягодный мусс</item>
+        <item>muss_yagoda</item>
+        <item>125,00</item>
+        <item>kitchen</item>
+
+        <item>Ванильный кекс</item>
+        <item>vanilniy_keks</item>
+        <item>100,00</item>
+        <item>kitchen</item>
+
+        <item>Пончики</item>
+        <item>ponciki</item>
+        <item>90,00</item>
+        <item>kitchen</item>
+
+        <item>Малиновый рулет</item>
+        <item>rulet_malina</item>
+        <item>160,00</item>
+        <item>kitchen</item>
+
+        <item>Миндальное печенье</item>
+        <item>mindalnoe_pechen</item>
+        <item>75,00</item>
+        <item>kitchen</item>
+
+        <item>Шоколадный брауни</item>
+        <item>brauni_chokolate</item>
+        <item>155,00</item>
+        <item>kitchen</item>
+
+        <item>Апельсиновый кекс</item>
+        <item>apelsin_keks</item>
+        <item>110,00</item>
+        <item>kitchen</item>
+
+        <item>Карамельный тарт</item>
+        <item>karamelniy_tartar</item>
+        <item>135,00</item>
+        <item>kitchen</item>
+
+        <item>Вишневый домик</item>
+        <item>vishneviy_domik</item>
+        <item>120,00</item>
+        <item>kitchen</item>
+
+        <item>Морковный кекс</item>
+        <item>morkovniy_keks</item>
+        <item>100,00</item>
+        <item>kitchen</item>
+
+        <item>Клубничное пирожное</item>
+        <item>klubnichnoe_pirojnoe</item>
+        <item>145,00</item>
+        <item>kitchen</item>
+
+        <item>Лимонный пирог</item>
+        <item>pirog_limon</item>
+        <item>115,00</item>
+        <item>kitchen</item>
+
+        <item>Шоколадный круассан</item>
+        <item>kruassan_chokolate</item>
+        <item>95,00</item>
+        <item>kitchen</item>
+
+        <item>Вафельки с малиновым джемом</item>
+        <item>vafli_malinoviy_jem</item>
+        <item>125,00</item>
+        <item>kitchen</item>
+
+        <item>Мороженое в вафельном рожке</item>
+        <item>morojenoe_vanil_rojok</item>
+        <item>70,00</item>
+        <item>kitchen</item>
+    </array>
+
+    <array name="bar_menu">
+        <item>Чай чёрный</item>
+        <item>black_tea</item>
+        <item>100,00</item>
+        <item>bar</item>
+
+        <item>Чай зелёный</item>
+        <item>green_tea</item>
+        <item>100,00</item>
+        <item>bar</item>
+
+        <item>Чай фруктовый</item>
+        <item>frut_tea</item>
+        <item>125,00</item>
+        <item>bar</item>
+
+        <item>Американо</item>
+        <item>amerikano</item>
+        <item>100,00</item>
+        <item>bar</item>
+
+        <item>Капучино</item>
+        <item>kapuchino</item>
+        <item>119,00</item>
+        <item>bar</item>
+
+        <item>Латте</item>
+        <item>latte</item>
+        <item>129,00</item>
+        <item>bar</item>
+
+        <item>Горячий шоколад</item>
+        <item>hot_chokolate</item>
+        <item>100,00</item>
+        <item>bar</item>
+
+        <item>Коктель ваниль</item>
+        <item>koktel_vanil</item>
+        <item>150,00</item>
+        <item>bar</item>
+
+        <item>Коктель клубника</item>
+        <item>koktel_klubnika</item>
+        <item>150,00</item>
+        <item>bar</item>
+
+        <item>Коктель шоколад</item>
+        <item>koktel_chokolate</item>
+        <item>150,00</item>
+        <item>bar</item>
+
+        <item>АВТОРСИКЙ коктель SOG</item>
+        <item>koktel_sog</item>
+        <item>250,00</item>
+        <item>bar</item>
+
+
+    </array>
+
+
+</resources>
